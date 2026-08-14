@@ -1,14 +1,16 @@
 #include <stdio.h>
 #include <math.h>
 int main() {
-   double r = 20 , circumfrence , area;
+   float radius , circumference , area;
     
-    double pie = 3.141592653589793;
-    area = (pie)*pow (r,2);
+    printf("enter value of radius: ");
+    scanf("%f",&radius);
+    
+    area = M_PI*pow(radius,2);
 
-     circumfrence = 2*(pie)*r;
+     circumference = 2*M_PI*radius;
 
-        printf("%.2f\n%.2f",area,circumfrence);
+        printf("%f\n%f",area,circumference);
     
     return 0;
 
