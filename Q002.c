@@ -1,12 +1,27 @@
+
 #include <stdio.h>
 
-int main() {
-    int a = 10 , b = 2;
-    printf("\n%d", a+b);
-    printf("\n%d", a-b);
-    printf("\n%d", a*b);
-    printf("\n%d", a/b);
+int main()
+{
+     float a,b,c;
+ 
+ printf("enter value of a: ");
+ scanf("%f",&a);
+ 
+ printf("enter value of b: ");
+ scanf("%f",&b);
+ 
+ c=a+b;
+ printf("sum = %f\n",c);
+ 
+ c=a-b;
+ printf("diffrence = %f\n",c);
+ 
+ c=a*b;
+ printf("product = %f\n",c);
+ 
+ c=a/b;
+ printf("quotient = %f\n",c);
 
     return 0;
-
 }
