@@ -1,11 +1,22 @@
 #include <stdio.h>
 
-int main() {
-    int a = 6 , b = 10 , perimeter , area;
-    area = a*b;
-    perimeter = 2*(a+b);
-    printf("%d\n%d", area , perimeter);
-
+int main()
+{
+    
+    float length,breadth,area,perimeter;
+    
+    printf("enter length: ");
+    scanf("%f",&length);
+    
+    printf("enter breadth: ");
+    scanf("%f",&breadth);
+    
+    area=length*breadth;
+    perimeter=2*(length+breadth);
+    
+    printf("area: %f\n",area);
+    printf("perimeter: %f",perimeter);
+    
     return 0;
-
 }
+
